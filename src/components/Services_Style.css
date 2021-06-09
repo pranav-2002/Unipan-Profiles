@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+body {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  height: 100%;
+}
+
+.head {
+  color: white;
+  margin-top: 30px;
+  font-weight: bolder;
+}

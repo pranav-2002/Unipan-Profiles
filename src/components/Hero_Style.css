@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+
+.hero_cont{
+    height: 250px;
+    background-image: url('E:/VS Code Projects/React_Projects/unipan/src/images/Background.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.hero_cont h1{
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline wheat;
+    margin-top: 50px;
+}
+
