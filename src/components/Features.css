@@ -1,0 +1,40 @@
+.features {
+  height: auto;
+  padding-top: 40px;
+  background-color: #212529;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.features__content {
+  display: flex;
+  align-items: center;
+}
+
+.water-icon {
+  font-size: 120px !important;
+  cursor: pointer;
+}
+
+.features__text h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.features__text p {
+  font-size: 20px;
+}
+
+@media (min-width: 320px) {
+  .features {
+    width: 100%;
+    height: auto;
+  }
+  .features__content {
+    display: flex;
+    padding: 50px;
+  }
+}

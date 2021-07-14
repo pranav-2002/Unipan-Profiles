@@ -1,9 +1,30 @@
 .uni_logo{
-    width: 110px;
+    width: 240px;
+    height: 38px;
+    margin-left: 60px;
+    margin-right: -30px;
+    margin-bottom: 4px;
+    object-fit: contain;
 }
 
 .nav-fix{
     position: sticky;
     top: 0;
     z-index: 100;
+}
+
+.navbar-text{
+    font-size: 18.5px;
+}
+
+.navbar-icon{
+    margin: 0 10px 5px 0;
+}
+
+.dropdown-menu{
+    background-color: #212529 !important;
+}
+
+.dropdown-item:hover{
+    background-color: #212529;
 }

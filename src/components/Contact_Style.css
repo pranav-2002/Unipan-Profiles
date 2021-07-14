@@ -1,1 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.phone-icon {
+  color: white !important;
+  font-size: 60px !important;
+}
+
+.contact-text p {
+  margin-top: 15px;
+  margin-left: 15px;
+  font-size: 25px;
+  line-height: 15px;
+  font-weight: 500;
+}
+
+.contact > hr {
+  border: 1px solid wheat;
+}
+
+.first-icon {
+  margin-left: -100px;
+}
+
+.unipan-map {
+  margin-top: 30px;
+}
+
+@media (min-width: 320px) {
+  .unipan-map {
+    width: 400px !important;
+  }
+}

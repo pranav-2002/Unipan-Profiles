@@ -1,5 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
 
-.container{
-    color: white;
+.container {
+  color: white;
+  font-family: "Varela Round", sans-serif;
+}
+
+.main-text {
+  margin-top: 50px;
+  line-height: 43px;
+  font-size: 25px;
+  padding-bottom: 80px;
 }

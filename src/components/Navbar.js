@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Navbar_Style.css";
-import Unipan_Logo from "../images/Unipan_Logo.png";
+import Logo from "../images/logo.jpeg";
+import HomeIcon from "@material-ui/icons/Home";
+import MeetingRoomIcon from "@material-ui/icons/MeetingRoom";
+import InfoIcon from "@material-ui/icons/Info";
+import PermPhoneMsgIcon from "@material-ui/icons/PermPhoneMsg";
 
 export default function Navbar() {
   return (
     <nav className="nav-fix navbar navbar-expand-lg navbar-dark bg-dark py-2">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img className="fluid uni_logo" src={Unipan_Logo} alt="..." />
+          <img className="fluid uni_logo" src={Logo} alt="logo" />
         </Link>
         <button
           className="navbar-toggler"
@@ -22,17 +26,50 @@ export default function Navbar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav px-5">
+          <div className="navbar-nav px-5 navbar-text">
             <Link className="nav-link active px-4" aria-current="page" to="/">
+              <HomeIcon className="navbar-icon" />
               HOME
             </Link>
-            <Link className="nav-link active px-4" to="/products">
-              PRODUCTS
-            </Link>
+            <li class="nav-item dropdown">
+              <Link
+                class="nav-link active dropdown-toggle"
+                to="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <MeetingRoomIcon style={{ color: "white" }} />
+                PRODUCTS
+              </Link>
+              <ul
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <li>
+                  <Link class="dropdown-item" to="/plain doors">
+                    Plain Doors
+                  </Link>
+                </li>
+                <li>
+                  <Link class="dropdown-item" to="/designer doors">
+                    Digital Printed Doors
+                  </Link>
+                </li>
+                <li>
+                  <Link class="dropdown-item" to="/cupboards">
+                    Cupboards
+                  </Link>
+                </li>
+              </ul>
+            </li>
             <Link className="nav-link active px-4" to="/about">
-              ABOUT US
+              <InfoIcon className="navbar-icon" />
+              ABOUT
             </Link>
             <Link className="nav-link active px-4" to="/contact">
+              <PermPhoneMsgIcon className="navbar-icon" />
               CONTACT US
             </Link>
           </div>

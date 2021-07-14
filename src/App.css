@@ -1,1 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+body {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  color: #212529;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(219, 235, 196);
+  outline: 1px solid slategrey;
+}

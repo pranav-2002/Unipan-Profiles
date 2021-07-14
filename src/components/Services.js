@@ -4,12 +4,12 @@ import Navbar from './Navbar';
 import Products from './Products';
 import './Services_Style.css';
 
-function Services() {
+function Services( {heading} ) {
     return (
         <div>
             <Navbar/>
             <Hero text="OUR PRODUCTS"/>
-            <h1 className="h2 text-center head">Checkout Our Wide Range Of Products</h1>
+            <h1 className="h2 text-center head">{heading}</h1>
             <Products/>
         </div>
     )

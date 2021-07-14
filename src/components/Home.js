@@ -1,27 +1,38 @@
 import React from "react";
-import Navbar from "./Navbar";
 import "./Home_Style.css";
-import { Link } from "react-router-dom";
+import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";
+import PDF from "../images/unipan-catalogue.pdf";
 
 export default function Home() {
+  function scroll() {
+    window.scrollTo(0, 560);
+  }
+
   return (
     <div>
-      <Navbar />
       <div className="bg"></div>
       <div className="bg bg2"></div>
       <div className="bg bg3"></div>
       <div className="container d-flex cont">
-        <h1>UNIPAN PROFILES PRIVATE LIMITED</h1>
+        <h1>UNIPAN PROFILES INDIA PRIVATE LIMITED</h1>
         <br />
         <h2>
           We are into the business of manufacturing and <br /> marketing of PVC
-          doors and profiles since 2002.
+          doors and profiles since 2002
         </h2>
         <br />
-        <Link className="cat btn btn-success btn-lg item1" to="#">
-          {" "}
+        <a
+          className="cat btn btn-info btn-lg item1 cat-link"
+          href={PDF}
+          download
+        >
           Check Out Our Catalogue
-        </Link>
+        </a>
+      </div>
+      <div className="scroll">
+        <button className="scroll-button" onClick={scroll}>
+          <KeyboardArrowDownIcon className="scroll-icon" />
+        </button>
       </div>
     </div>
   );
