@@ -23,6 +23,7 @@
 }
 
 .footer__heading > h4 {
+  flex-direction: column;
   color: white !important;
   font-weight: bold;
   text-align: center;
@@ -37,14 +38,38 @@
 }
 
 .footer__address:hover {
-  transition: 0.3s;
-  cursor: pointer;
+  transition: 0.3s ease-in-out;
   color: white;
+  cursor: pointer;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.footer__socials p {
+  margin-top: 10px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.footer__socials p:hover {
+  color: white;
+}
+
+.social-icon {
+  font-size: 30px !important;
+}
+
+.social-icon-right {
+  margin-left: 50px;
 }
 
 @media (max-width: 420px) {
   .footer {
-    height: 480px;
+    height: 540px;
   }
   .footer__content {
     flex-direction: column;

@@ -25,7 +25,7 @@
   display: flex;
   font-weight: bold;
   color: white;
-  margin-top: 110px;
+  margin-top: 80px;
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
@@ -39,13 +39,14 @@
 
 .cont h1 {
   font-weight: bolder;
-  font-size: 45px;
+  font-size: 40px;
   border-bottom: 5px solid wheat;
   border: 1px solid wheat;
   border-radius: 10px;
   background-color: #ebf2d1;
   color: black;
   padding: 10px;
+  text-align: center;
 }
 
 .cont h2 {
@@ -61,32 +62,39 @@
   }
 }
 
-.cat-link{
+.cat-link {
   font-weight: bold;
   font-size: 23px;
 }
 
-.scroll-icon{
+.scroll-icon {
   font-size: 120px !important;
   color: black;
 }
 
-.scroll-icon:hover{
+.scroll-icon:hover {
   transition: 0.5s;
   font-size: 130px !important;
   color: #ebf2d1;
 }
 
-.scroll{
+.scroll {
   display: flex;
   justify-content: center;
 }
 
-.scroll-button{
+.scroll-button {
   background: none;
-	color: inherit;
-	border: none;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+@media (max-width: 420px) {
+  .cont h1 {
+    font-size: 35px;
+    text-align: initial;
+  }
 }

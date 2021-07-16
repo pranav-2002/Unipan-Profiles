@@ -18,7 +18,9 @@ function Features() {
         </div>
         <div className="features__text">
           <h1>Water Proof</h1>
-          <p>UNIPAN doors are Waterproof <br /> & Weatherproof </p>
+          <p>
+            UNIPAN doors are Waterproof <br /> & Weatherproof{" "}
+          </p>
         </div>
       </div>
       <div className="features__content">

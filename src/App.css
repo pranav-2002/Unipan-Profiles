@@ -3,7 +3,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 1em;
+  width: 0.9em;
 }
 
 body::-webkit-scrollbar-track {
@@ -13,4 +13,6 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: rgb(219, 235, 196);
   outline: 1px solid slategrey;
+  border: 1px solid rgb(219, 235, 196);
+  border-radius: 10px;
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import DD1 from "../images/design1.jpeg";
 import DD2 from "../images/design2.jpeg";
 
@@ -17,9 +16,7 @@ function DesignDoorsProducts() {
               <p className="card-text lead">
                 Applicable to both light and heavy quality
               </p>
-              <Link to="#" className="btn btn-info">
-                More Details
-              </Link>
+              <h4 className="bestseller-heading">Bestseller</h4>
             </div>
           </div>
         </div>
@@ -34,9 +31,7 @@ function DesignDoorsProducts() {
               <p className="card-text lead">
                 Applicable to both light and heavy quality
               </p>
-              <Link to="#" className="btn btn-info">
-                More Details
-              </Link>
+              <h4 className="bestseller-heading">Bestseller</h4>
             </div>
           </div>
         </div>

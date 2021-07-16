@@ -1,15 +1,15 @@
 import React from "react";
 import "./Contact_Style.css";
-import RingVolumeIcon from "@material-ui/icons/RingVolume";
 import EmailIcon from "@material-ui/icons/Email";
 import BusinessIcon from "@material-ui/icons/Business";
+import PhoneIcon from "@material-ui/icons/Phone";
 
 function Contact() {
   return (
     <div className="contact">
       <div className="contact-content first-icon">
         <div className="contact-icons">
-          <RingVolumeIcon className="phone-icon" />
+          <PhoneIcon className="phone-icon" />
         </div>
         <div className="contact-text">
           <p>+91-9849037043</p>
@@ -31,7 +31,7 @@ function Contact() {
         </div>
         <div className="contact-text">
           <p>1-7-150/1/A, </p>
-          <p>beside Captain Cook lane,</p>
+          <p>Beside Captain Cook Lane,</p>
           <p> Bakaram, Hyderabad-20 </p>
         </div>
       </div>
@@ -41,8 +41,8 @@ function Contact() {
           width="400"
           height="300"
           style={{ border: "0" }}
-          allowfullscreen="True"
-          title="Unipan-address"
+          allowfullscreen="true"
+          title="Unipan-Address"
           loading="lazy"
         ></iframe>
       </div>

@@ -5,7 +5,7 @@ import PDF from "../images/unipan-catalogue.pdf";
 
 export default function Home() {
   function scroll() {
-    window.scrollTo(0, 560);
+    window.scrollTo(0, 600);
   }
 
   return (
@@ -26,7 +26,7 @@ export default function Home() {
           href={PDF}
           download
         >
-          Check Out Our Catalogue
+          Download Our Catalogue
         </a>
       </div>
       <div className="scroll">

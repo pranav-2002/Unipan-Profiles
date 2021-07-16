@@ -1,6 +1,7 @@
 .features {
   height: auto;
   padding-top: 40px;
+  margin-top: 40px;
   background-color: #212529;
   color: white;
   display: flex;
@@ -36,5 +37,11 @@
   .features__content {
     display: flex;
     padding: 50px;
+  }
+}
+
+@media (max-width: 420px) {
+  .water-icon {
+    margin-left: -60px;
   }
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Heavy from "../images/heavy.png";
 import Heavy2 from "../images/heavy_2.jpg";
 import Heavy4 from "../images/heavy_4.jpg";
@@ -14,15 +13,73 @@ function Products() {
     <div className="main-content">
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
+          <img src={Heavy5} className="card-img-top" alt="img" />
+          <div className="card-body">
+            <h2 className="card-title">
+              <strong>Plain Doors</strong>
+            </h2>
+            <p className="card-text quality-heading">
+              Light Quality(Customizable)
+            </p>
+            <ul className="product-list">
+              <li>
+                {" "}
+                <p className="card-text"> 20mm Gauge</p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Panel Width - 19mm, 21<sup>1/2</sup>mm, 25mm{" "}
+                </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">Section - 25mm, 30mm, 32mm </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Colors - Cherry Wood, Evita, Rose Wood, Nigerian Teak
+                </p>{" "}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
+        <div className="card" style={{ width: 288 }}>
           <img src={Heavy6} className="card-img-top" alt="img" />
           <div className="card-body">
             <h2 className="card-title">
               <strong>Model-1</strong>
             </h2>
-            <p className="card-text lead">Light Quality</p>
-            <Link to="#" className="btn btn-info">
-              More Details
-            </Link>
+            <p className="card-text quality-heading">
+              Light Quality(Customizable)
+            </p>
+            <ul className="product-list">
+              <li>
+                {" "}
+                <p className="card-text"> 20mm Gauge</p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Panel Width - 19mm, 21<sup>1/2</sup>mm, 25mm{" "}
+                </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">Section - 25mm, 30mm, 32mm </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text"> Colors - Cherry Wood, Evita</p>{" "}
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -34,25 +91,33 @@ function Products() {
             <h2 className="card-title">
               <strong>Model-2</strong>
             </h2>
-            <p className="card-text lead">Light Quality</p>
-            <Link to="#" className="btn btn-info">
-              More Details
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
-        <div className="card" style={{ width: 288 }}>
-          <img src={Heavy5} className="card-img-top" alt="img" />
-          <div className="card-body">
-            <h2 className="card-title">
-              <strong>Model-3</strong>
-            </h2>
-            <p className="card-text lead">Light Quality</p>
-            <Link to="#" className="btn btn-info">
-              More Details
-            </Link>
+            <p className="card-text quality-heading">
+              Light Quality(Customizable)
+            </p>
+            <ul className="product-list">
+              <li>
+                {" "}
+                <p className="card-text"> 20mm Gauge</p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Panel Width - 19mm, 21<sup>1/2</sup>mm, 25mm{" "}
+                </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">Section - 25mm, 30mm, 32mm </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Colors - Cherry Wood, Evita, Rose Wood, Nigerian Teak
+                </p>{" "}
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -64,13 +129,35 @@ function Products() {
             <h2 className="card-title">
               <strong>Model-4</strong>
             </h2>
-            <p className="card-text lead">Heavy Quality</p>
-            <Link to="#" className="btn btn-info">
-              More Details
-            </Link>
+            <p className="card-text quality-heading">
+              Heavy Quality(Customizable){" "}
+            </p>
+            <ul className="product-list">
+              <li>
+                {" "}
+                <p className="card-text"> 30mm Gauge</p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Panel Width - 26mm, 28mm, 30mm{" "}
+                </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">Section - C-Section </p>
+              </li>
+              <li>
+                {" "}
+                <p className="card-text"> Colors - Evita, Rose Wood</p>{" "}
+              </li>
+            </ul>
+            <h4 className="bestseller-heading">Bestseller</h4>
           </div>
         </div>
       </div>
+
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
           <img src={Heavy2} className="card-img-top" alt="img" />
@@ -78,13 +165,35 @@ function Products() {
             <h2 className="card-title">
               <strong>Model-5</strong>
             </h2>
-            <p className="card-text lead">Heavy Quality</p>
-            <Link to="#" className="btn btn-info">
-              More Details
-            </Link>
+            <p className="card-text quality-heading">
+              Heavy Quality(Customizable){" "}
+            </p>
+            <ul className="product-list">
+              <li>
+                {" "}
+                <p className="card-text"> 30mm Gauge</p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Panel Width - 26mm, 28mm, 30mm{" "}
+                </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">Section - C-Section </p>
+              </li>
+              <li>
+                {" "}
+                <p className="card-text"> Colors - Evita</p>{" "}
+              </li>
+            </ul>
+            <h4 className="bestseller-heading">Bestseller</h4>
           </div>
         </div>
       </div>
+
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
           <img src={Heavy4} className="card-img-top" alt="img" />
@@ -92,10 +201,31 @@ function Products() {
             <h2 className="card-title">
               <strong>Model-7</strong>
             </h2>
-            <p className="card-text lead">Heavy Quality</p>
-            <Link to="#" className="btn btn-info">
-              More Details
-            </Link>
+            <p className="card-text quality-heading">
+              Heavy Quality(Customizable){" "}
+            </p>
+            <ul className="product-list">
+              <li>
+                {" "}
+                <p className="card-text"> 30mm Gauge</p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Panel Width - 26mm, 28mm, 30mm{" "}
+                </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">Section - C-Section </p>
+              </li>
+              <li>
+                {" "}
+                <p className="card-text"> Colors - Cherry Wood, Evita</p>{" "}
+              </li>
+            </ul>
+            <h4 className="bestseller-heading">Bestseller</h4>
           </div>
         </div>
       </div>
@@ -107,10 +237,34 @@ function Products() {
             <h2 className="card-title">
               <strong>Model-8</strong>
             </h2>
-            <p className="card-text lead">Heavy Quality</p>
-            <Link to="#" className="btn btn-info">
-              More Details
-            </Link>
+            <p className="card-text quality-heading">
+              Heavy Quality(Customizable){" "}
+            </p>
+            <ul className="product-list">
+              <li>
+                {" "}
+                <p className="card-text"> 30mm Gauge</p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Panel Width - 26mm, 28mm, 30mm{" "}
+                </p>{" "}
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">Section - C-Section </p>
+              </li>
+              <li>
+                {" "}
+                <p className="card-text">
+                  {" "}
+                  Colors - Cherry Wood, Evita, Rose Wood
+                </p>{" "}
+              </li>
+            </ul>
+            <h4 className="bestseller-heading">Bestseller</h4>
           </div>
         </div>
       </div>
