@@ -13,7 +13,7 @@ function Products() {
     <div className="main-content">
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
-          <img src={Heavy5} className="card-img-top" alt="img" />
+          <img src={Heavy5} className="card-img-top" alt="PVC Doors" />
           <div className="card-body">
             <h2 className="card-title">
               <strong>Plain Doors</strong>
@@ -51,7 +51,7 @@ function Products() {
 
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
-          <img src={Heavy6} className="card-img-top" alt="img" />
+          <img src={Heavy6} className="card-img-top" alt="PVC Doors" />
           <div className="card-body">
             <h2 className="card-title">
               <strong>Model-1</strong>
@@ -86,7 +86,7 @@ function Products() {
 
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
-          <img src={Heavy7} className="card-img-top" alt="img" />
+          <img src={Heavy7} className="card-img-top" alt="PVC Doors" />
           <div className="card-body">
             <h2 className="card-title">
               <strong>Model-2</strong>
@@ -124,7 +124,7 @@ function Products() {
 
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
-          <img src={Heavy} className="card-img-top" alt="img" />
+          <img src={Heavy} className="card-img-top" alt="PVC Doors" />
           <div className="card-body">
             <h2 className="card-title">
               <strong>Model-4</strong>
@@ -160,7 +160,7 @@ function Products() {
 
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
-          <img src={Heavy2} className="card-img-top" alt="img" />
+          <img src={Heavy2} className="card-img-top" alt="PVC Doors" />
           <div className="card-body">
             <h2 className="card-title">
               <strong>Model-5</strong>
@@ -196,7 +196,7 @@ function Products() {
 
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
-          <img src={Heavy4} className="card-img-top" alt="img" />
+          <img src={Heavy4} className="card-img-top" alt="PVC Doors" />
           <div className="card-body">
             <h2 className="card-title">
               <strong>Model-7</strong>
@@ -232,7 +232,7 @@ function Products() {
 
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
-          <img src={Heavy8} className="card-img-top" alt="img" />
+          <img src={Heavy8} className="card-img-top" alt="PVC Doors" />
           <div className="card-body">
             <h2 className="card-title">
               <strong>Model-8</strong>

@@ -41,7 +41,7 @@ function Contact() {
           width="400"
           height="300"
           style={{ border: "0" }}
-          allowfullscreen="true"
+          allowFullScreen
           title="Unipan-Address"
           loading="lazy"
         ></iframe>

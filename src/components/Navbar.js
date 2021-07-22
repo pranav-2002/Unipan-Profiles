@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="nav-fix navbar navbar-expand-lg navbar-dark bg-dark py-2">
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
-          <img className="fluid uni_logo" src={Logo} alt="logo" />
+          <img className="fluid uni_logo" src={Logo} alt="Unipan Profiles" />
         </Link>
         <button
           className="navbar-toggler"
@@ -31,9 +31,9 @@ export default function Navbar() {
               <HomeIcon className="navbar-icon" />
               HOME
             </Link>
-            <li class="nav-item dropdown">
+            <li className="nav-item dropdown">
               <Link
-                class="nav-link active dropdown-toggle"
+                className="nav-link active dropdown-toggle"
                 to="#"
                 id="navbarDropdownMenuLink"
                 role="button"
@@ -44,21 +44,21 @@ export default function Navbar() {
                 PRODUCTS
               </Link>
               <ul
-                class="dropdown-menu"
+                className="dropdown-menu"
                 aria-labelledby="navbarDropdownMenuLink"
               >
                 <li>
-                  <Link class="dropdown-item" to="/plain doors">
+                  <Link className="dropdown-item" to="/plain doors">
                     Plain Doors
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" to="/designer doors">
+                  <Link className="dropdown-item" to="/designer doors">
                     Digital Printed Doors
                   </Link>
                 </li>
                 <li>
-                  <Link class="dropdown-item" to="/cupboards">
+                  <Link className="dropdown-item" to="/cupboards">
                     Cupboards
                   </Link>
                 </li>

@@ -8,7 +8,7 @@ function DesignDoorsProducts() {
       <div className="main-content">
         <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
           <div className="card" style={{ width: 288 }}>
-            <img src={DD2} className="card-img-top" alt="img" />
+            <img src={DD2} className="card-img-top" alt="PVC Designer Doors" />
             <div className="card-body">
               <h2 className="card-title">
                 <strong>Designs Vol - 1</strong>
@@ -23,7 +23,7 @@ function DesignDoorsProducts() {
 
         <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
           <div className="card" style={{ width: 288 }}>
-            <img src={DD1} className="card-img-top" alt="img" />
+            <img src={DD1} className="card-img-top" alt="PVC Designer Doors" />
             <div className="card-body">
               <h2 className="card-title">
                 <strong>Designs Vol - 2</strong>
