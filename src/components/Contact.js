@@ -7,6 +7,9 @@ import PhoneIcon from "@material-ui/icons/Phone";
 function Contact() {
   return (
     <div className="contact">
+      <title>
+        Contact-Unipan Profiles PVC Doors and Cupboards Manufacturer
+      </title>
       <div className="contact-content first-icon">
         <div className="contact-icons">
           <PhoneIcon className="phone-icon" />

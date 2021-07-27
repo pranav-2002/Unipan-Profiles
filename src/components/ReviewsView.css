@@ -1,0 +1,26 @@
+.reviewsView {
+  color: white;
+  padding: 50px;
+  min-width: 33%;
+}
+
+.reviewsView__main {
+  display: flex;
+  align-items: center;
+}
+
+.reviewsView__avatar {
+  margin: 10px;
+}
+
+.reviewsView__main h5 {
+  margin-left: 10px;
+}
+
+.reviewsView p {
+  margin-left: 10px;
+}
+
+.reviewsView__stars {
+  margin-left: 10px;
+}

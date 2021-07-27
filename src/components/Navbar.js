@@ -6,6 +6,7 @@ import HomeIcon from "@material-ui/icons/Home";
 import MeetingRoomIcon from "@material-ui/icons/MeetingRoom";
 import InfoIcon from "@material-ui/icons/Info";
 import PermPhoneMsgIcon from "@material-ui/icons/PermPhoneMsg";
+import RateReviewIcon from "@material-ui/icons/RateReview";
 
 export default function Navbar() {
   return (
@@ -67,6 +68,10 @@ export default function Navbar() {
             <Link className="nav-link active px-4" to="/about">
               <InfoIcon className="navbar-icon" />
               ABOUT
+            </Link>
+            <Link className="nav-link active px-4" to="/reviews">
+              <RateReviewIcon className="navbar-icon" />
+              REVIEWS
             </Link>
             <Link className="nav-link active px-4" to="/contact">
               <PermPhoneMsgIcon className="navbar-icon" />

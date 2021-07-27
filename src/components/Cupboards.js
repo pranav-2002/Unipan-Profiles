@@ -5,6 +5,9 @@ import Navbar from "./Navbar";
 function Cupboards() {
   return (
     <div>
+      <title>
+        Cupboards-Unipan Profiles PVC Doors and Cupboards Manufacturer
+      </title>
       <Navbar />
       <Hero text="OUR PRODUCTS" />
       <h2 style={{ color: "white" }} className="text-center my-5" >

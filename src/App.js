@@ -10,6 +10,8 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import DesignerDoors from "./components/DesignerDoors";
 import Cupboards from "./components/Cupboards";
+import Reviews from "./components/Reviews";
+import Page404 from "./components/Page404";
 
 function App() {
   return (
@@ -40,6 +42,17 @@ function App() {
           <Hero text="CONTACT US" />
           <Contact />
           <Footer />
+        </Route>
+        <Route path="/reviews">
+          <Navbar />
+          <Hero text="  CUSTOMER REVIEWS" />
+          <Reviews />
+          <Footer />
+        </Route>
+        <Route to="*">
+          <Navbar />
+          <Hero text="404 Error" />
+          <Page404 />
         </Route>
       </Switch>
     </div>

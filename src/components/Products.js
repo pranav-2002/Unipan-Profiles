@@ -11,6 +11,9 @@ import "./Products_Style.css";
 function Products() {
   return (
     <div className="main-content">
+      <title>
+        Plain Doors-Unipan Profiles PVC Doors and Cupboards Manufacturer
+      </title>
       <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
         <div className="card" style={{ width: 288 }}>
           <img src={Heavy5} className="card-img-top" alt="PVC Doors" />

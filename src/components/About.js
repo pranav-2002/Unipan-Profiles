@@ -6,14 +6,15 @@ import "./About_Style.css";
 function About() {
   return (
     <div>
+      <title>About-Unipan Profiles PVC Doors and Cupboards Manufacturer</title>
       <Navbar />
       <Hero text="ABOUT US" />
       <div className="container">
         <h2 className="text-center main-text">
-          UNIPAN PVC (Poly Vinyl Chloride) doors are innovative & highly durable wood substitute
-          products that promotes our mission to save Earth through usage of
-          green products. Each UNIPAN PVC door you buy, saves a tree from axing
-          and preserves your child's future. <br />
+          UNIPAN PVC (Poly Vinyl Chloride) doors are innovative & highly durable
+          wood substitute products that promotes our mission to save Earth
+          through usage of green products. Each UNIPAN PVC door you buy, saves a
+          tree from axing and preserves your child's future. <br />
           <br />
           <hr />
           We are the first ever company to manufacture highly durable and

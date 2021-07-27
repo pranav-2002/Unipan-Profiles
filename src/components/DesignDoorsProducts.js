@@ -5,6 +5,9 @@ import DD2 from "../images/design2.jpeg";
 function DesignDoorsProducts() {
   return (
     <div>
+      <title>
+        Designer Doors-Unipan Profiles PVC Doors and Cupboards Manufacturer
+      </title>
       <div className="main-content">
         <div className="d-inline-flex px-4 my-5 mx-2 bd-highlight">
           <div className="card" style={{ width: 288 }}>

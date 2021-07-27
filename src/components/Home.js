@@ -10,6 +10,7 @@ export default function Home() {
 
   return (
     <div>
+      <title>Unipan Profiles PVC Doors and Cupboards Manufacturer</title>
       <div className="bg"></div>
       <div className="bg bg2"></div>
       <div className="bg bg3"></div>
