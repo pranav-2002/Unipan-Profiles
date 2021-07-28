@@ -15,3 +15,9 @@
   font-weight: bolder;
   margin-top: 50px;
 }
+
+@media (max-width: 460px) {
+  .hero_cont h1 {
+    font-size: 35px;
+  }
+}

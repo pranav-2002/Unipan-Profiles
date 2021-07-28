@@ -5,7 +5,9 @@ import "./Reviews.css";
 function Reviews() {
   return (
     <div className="reviews">
-      <title>Reviews-Unipan Profiles PVC Doors and Cupboards Manufacturer</title>
+      <title>
+        Reviews-Unipan Profiles PVC Doors and Cupboards Manufacturer
+      </title>
       <ReviewsView
         userName="Kaushik Yadav"
         userIcon="https://lh3.googleusercontent.com/a/AATXAJwkIWApwQCxKa_MgjTaejsaK-pm-05u9TQLHkjk=w49-h49-p-c0x00000000-rp-mo-ba3-br100"

@@ -24,3 +24,7 @@
 .reviewsView__stars {
   margin-left: 10px;
 }
+
+.reviewsView__text {
+  width: 250px;
+}

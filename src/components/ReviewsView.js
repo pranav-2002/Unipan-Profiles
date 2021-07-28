@@ -17,7 +17,7 @@ function ReviewsView({ userName, userIcon, review, stars }) {
         className="reviewsView__stars"
       />
       <i>
-        <p>{review}</p>
+        <p className="reviewsView__text">{review}</p>
       </i>
     </div>
   );
