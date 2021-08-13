@@ -9,6 +9,12 @@ function Reviews() {
         Reviews-Unipan Profiles PVC Doors and Cupboards Manufacturer
       </title>
       <ReviewsView
+        userName="Ruthvik Kakaraparthi"
+        userIcon="https://lh3.googleusercontent.com/a/AATXAJwFI2xQxTY8Cn5TkVk3ygtZfeUn2mTMF-frfL7l=w49-h49-p-c0x00000000-rp-mo-br100"
+        review="Such Nice products and the quality of the product is outstanding and long-lasting. I would suggest that this might be the best company for doors in Hyderabad."
+        stars={5}
+      />
+      <ReviewsView
         userName="Kaushik Yadav"
         userIcon="https://lh3.googleusercontent.com/a/AATXAJwkIWApwQCxKa_MgjTaejsaK-pm-05u9TQLHkjk=w49-h49-p-c0x00000000-rp-mo-ba3-br100"
         review="Excellent and quick service with reasonable pricing"
@@ -67,6 +73,24 @@ function Reviews() {
         userIcon="https://lh3.googleusercontent.com/a/AATXAJwjAS9-_-dUFDTNQ3-5PtZI9UqcCZ76vGnHnqEC=w49-h49-p-c0x00000000-rp-mo-br100"
         review=""
         stars={3}
+      />
+      <ReviewsView
+        userName="Amol Patil"
+        userIcon="https://lh3.googleusercontent.com/a/AATXAJz-50pi0MmLHVaqih4NPhuazzasxTwI583dxRGx=w49-h49-p-c0x00000000-rp-mo-br100"
+        review=""
+        stars={5}
+      />
+      <ReviewsView
+        userName="Aditya Mudhalkar"
+        userIcon="https://lh3.googleusercontent.com/a-/AOh14GgXcnWO_ZEbiVYHQZJ-gEflYBpjDX7zlkR6nieQug=w49-h49-p-c0x00000000-rp-mo-br100"
+        review=""
+        stars={5}
+      />
+      <ReviewsView
+        userName="Vamshi nath Reddy"
+        userIcon="https://lh3.googleusercontent.com/a-/AOh14Ggz9bgxD0pnWxW5VLWFCQ82tMKtNytt8YIONmYeNQ=w49-h49-p-c0x00000000-rp-mo-ba3-br100"
+        review=""
+        stars={5}
       />
     </div>
   );
